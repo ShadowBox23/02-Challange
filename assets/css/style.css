@@ -1,5 +1,5 @@
 
-
+/* sets variables for things that like to repeat themselves */
 :root{
     --background-color: white;
     --background-color2: #414141;
@@ -36,13 +36,19 @@ p {
     line-height: 1em;
 }
 
+/* this is where the nav content is styled */
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: var(--background-color2);
-    padding: 0 45px;
-    height: 65px;
+    padding: 0 50px;
+    height: 75px;
+}
+
+nav span {
+    background-color: var(--text-color2);
+    padding: 10px;
 }
 
 nav ul {
@@ -63,7 +69,7 @@ nav ul li a {
 }
 
 
-
+/* hero banner is added */
 .hero {
     height: 300px;
     width: 100%;
@@ -81,6 +87,11 @@ nav ul li a {
     padding: 45px;
 }
 
+.hero-text span {
+    background-color: #89CFF0;
+}
+
+/* main section begins here and also styling for the hero banner section */
 main {
     max-width: 80%;
     margin: auto;
@@ -95,9 +106,8 @@ main {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: stretch;
     justify-content: space-between;
-    gap: 30px;
+    align-items: stretch;
 }
 
 aside {
@@ -112,6 +122,7 @@ aside {
     padding: 0 20px 0 0;
 }
 
+/* about me sectiong starts here */
 #about-me .contents {
     display: flex;
     flex-direction: row;
@@ -120,18 +131,25 @@ aside {
 
 #about-me .contents img {
     width: 20%;
-    min-width: 180px;
+    min-width: 170px;
     height: fit-content;
     margin-right: 45px;
     align-self: center;
-    border-radius: 50%;
+    padding-left: 50px;
 }
 
+#about-me .contents p {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* work section starts here */
 #work-container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
+    padding-left: 50px;
 }
 
 #work a {
@@ -148,7 +166,7 @@ aside {
     top: 100px;
 }
 
-#Horiseon-solutions .work-desc {
+#Horiseon .work-desc {
     top: 300px;
 }
 
@@ -157,34 +175,35 @@ aside {
     font-weight: bolder;
 }
 
-/* styles the work projects */
+/* styles my projects */
 .my-projects {
     width: 50%;
     height: 200px;
 }
 
-/* styles the main work project */
+/* styles my main project */
 .my-projects:first-child {
     width: 100%;
     height: 400px;
     
 }
 
-#Horiseon-solutions {
+/* adds the pictures for the projects */
+#Horiseon {
     background-image: url("/assets/images/Horiseon.jpg");
     background-size: 100% auto;
 }
 
-#Horiseon-solutions:hover {
+#Horiseon:hover {
     background-image: url("/assets/images/Horiseon.jpg");
 }
 
-#study-guide {
+#prework-study-guide {
     background-image: url("/assets/images/PreWorkStudyGuide.jpg");
     background-size: 100% auto;
 }
 
-#study-guide:hover {
+#prework-study-guide:hover {
     background-image: url("/assets/images/PreWorkStudyGuide.jpg");
 }
 
@@ -198,24 +217,27 @@ aside {
 }
 
 
+/* styles my contact information */
 .contact-information {
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    justify-content: space-evenly;
     align-items: center;
+    padding-left: 50px;
 }
 
 #contact-me ul li {
-    margin: 0 20px 0 0;
+    margin: 0 30px 0 0;
 }
 
 #contact-me ul li a {
     color: var(--text-color2);
     font-family: var(--text-style);
-    font-weight: 500;
+    font-weight: 700;
     text-decoration: none;
 }
 
+/* styles the footer */
 footer {
     margin: auto;
     text-align: center;
