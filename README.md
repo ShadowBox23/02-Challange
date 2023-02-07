@@ -6,6 +6,6 @@ The image below shows a glimpe of my portfolio
 
 ![portfoliodemo](https://user-images.githubusercontent.com/120299691/217148536-409e7644-4f14-4f6f-b163-e503ce607f89.JPG)
 
-##Link
--https://github.com/ShadowBox23/Professional-Portfolio
--https://shadowbox23.github.io/Professional-Portfolio/
+## Links
+- https://github.com/ShadowBox23/Professional-Portfolio
+- https://shadowbox23.github.io/Professional-Portfolio/
