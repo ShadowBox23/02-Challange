@@ -74,7 +74,7 @@ nav ul li a {
     height: 300px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url("/assets/images/banner.jpg");
+    background-image: url("../images/banner.jpg");
     background-size: cover;
     background-position: center;
 }
