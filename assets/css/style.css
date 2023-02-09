@@ -190,30 +190,30 @@ aside {
 
 /* adds the pictures for the projects */
 #Horiseon {
-    background-image: url("/assets/images/Horiseon.jpg");
+    background-image: url("../images/Horiseon.jpg");
     background-size: 100% auto;
 }
 
 #Horiseon:hover {
-    background-image: url("/assets/images/Horiseon.jpg");
+    background-image: url("../images/Horiseon.jpg");
 }
 
 #prework-study-guide {
-    background-image: url("/assets/images/PreWorkStudyGuide.jpg");
+    background-image: url("../images/PreWorkStudyGuide.jpg");
     background-size: 100% auto;
 }
 
 #prework-study-guide:hover {
-    background-image: url("/assets/images/PreWorkStudyGuide.jpg");
+    background-image: url("../images/PreWorkStudyGuide.jpg");
 }
 
 #clock {
-    background-image: url("/assets/images/clock.jpg");
+    background-image: url("../images/clock.jpg");
     background-size: 100% auto;
 }
 
 #clock:hover {
-    background-image: url("/assets/images/clock.jpg");
+    background-image: url("../images/clock.jpg");
 }
 
 
