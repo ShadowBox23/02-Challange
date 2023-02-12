@@ -74,7 +74,7 @@ nav ul li a {
     height: 300px;
     width: 100%;
     margin-bottom: 20px;
-    background-image: url("../images/banner.jpg");
+    background-image: url("../images/banner.JPG");
     background-size: cover;
     background-position: center;
 }
@@ -190,30 +190,30 @@ aside {
 
 /* adds the pictures for the projects */
 #Horiseon {
-    background-image: url("../images/Horiseon.jpg");
+    background-image: url("../images/Horiseon.JPG");
     background-size: 100% auto;
 }
 
 #Horiseon:hover {
-    background-image: url("../images/Horiseon.jpg");
+    background-image: url("../images/Horiseon.JPG");
 }
 
 #prework-study-guide {
-    background-image: url("../images/PreWorkStudyGuide.jpg");
+    background-image: url("../images/PreWorkStudyGuide.JPG");
     background-size: 100% auto;
 }
 
 #prework-study-guide:hover {
-    background-image: url("../images/PreWorkStudyGuide.jpg");
+    background-image: url("../images/PreWorkStudyGuide.JPG");
 }
 
 #clock {
-    background-image: url("../images/clock.jpg");
+    background-image: url("../images/clock.JPG");
     background-size: 100% auto;
 }
 
 #clock:hover {
-    background-image: url("../images/clock.jpg");
+    background-image: url("../images/clock.JPG");
 }
 
 
