@@ -206,6 +206,13 @@ aside {
 #prework-study-guide:hover {
     background-image: url("../images/PreWorkStudyGuide.JPG");
 }
+#Games-Now {
+    background-image: url("../images/Games.JPG");
+}
+
+#Games-Now:hover {
+    background-image: url("../images/Games.JPG");
+}
 
 #clock {
     background-image: url("../images/clock.JPG");
